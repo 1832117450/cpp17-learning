@@ -1,0 +1,5 @@
+Initial: Speed: 10, Braking: false
+Inside value function: 20
+After value: Speed: 10, Braking: false
+After reference: Speed: 30, Braking: false
+After pointer: Speed: 0, Braking: true

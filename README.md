@@ -16,15 +16,40 @@
 - results/：运行结果
 - build/：编译生成的文件
 
-## 编译方法
+## 学习进度
 
-mkdir -p build
+- 第001天：建立 C++17 学习工程
+- 第002天：引用与 const
+
+## Day 001
+
+### 编译
+
 g++ -std=c++17 -Wall -Wextra src/main.cpp -o build/hello
 
-## 运行方法
+### 运行
 
 ./build/hello
 
-## 预期输出
+### 输出
 
 Hello, C++17!
+
+## Day 002
+
+### 编译
+
+g++ -std=c++17 -Wall -Wextra src/day02.cpp -o build/day02
+
+### 运行
+
+./build/day02
+
+### 学习内容
+
+- 值传递
+- 引用传递
+- 指针传递
+- const 引用
+- VehicleState 车辆状态结构体
+- 编译警告与编译错误
