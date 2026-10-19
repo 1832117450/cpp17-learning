@@ -53,3 +53,33 @@ g++ -std=c++17 -Wall -Wextra src/day02.cpp -o build/day02
 - const 引用
 - VehicleState 车辆状态结构体
 - 编译警告与编译错误
+
+## Day 003：STL 与轨迹容器
+
+### 学习内容
+- std::vector：动态存储轨迹点
+- std::array：保存固定长度的二维坐标
+- std::optional：处理不存在的轨迹点
+- const auto&：通过常量引用遍历容器
+- struct TrajectoryPoint：定义轨迹点数据结构
+
+### 完成任务
+- 定义包含 x、y、speed 的轨迹点结构体
+- 使用 vector 保存并打印 10 个轨迹点
+- 使用 optional 检查非法索引
+- 使用 empty() 检查空轨迹
+
+### 编译与运行
+
+g++ -std=c++17 -Wall -Wextra src/day03.cpp -o build/day03
+
+./build/day03
+
+### 学习记录
+- 代码：src/day03.cpp
+- 笔记：notes/day003.md
+- 运行结果：results/day003.txt
+
+### 自动驾驶应用
+使用 vector 保存规划轨迹，使用 optional 处理无效轨迹点，为后续车辆模型、轨迹规划和控制算法打基础。
+
