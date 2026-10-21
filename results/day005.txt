@@ -1,0 +1,55 @@
+Test project /home/lzf/projects/cpp17-learning/build
+    Start 1: unit_tests
+1/1 Test #1: unit_tests .......................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.01 sec
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from DistanceTest
+[ RUN      ] DistanceTest.BasicCalculation
+[       OK ] DistanceTest.BasicCalculation (0 ms)
+[ RUN      ] DistanceTest.SamePoint
+[       OK ] DistanceTest.SamePoint (0 ms)
+[ RUN      ] DistanceTest.InvalidInput
+[       OK ] DistanceTest.InvalidInput (0 ms)
+[----------] 3 tests from DistanceTest (0 ms total)
+
+[----------] 3 tests from AngleTest
+[ RUN      ] AngleTest.ZeroAngle
+[       OK ] AngleTest.ZeroAngle (0 ms)
+[ RUN      ] AngleTest.FullRotation
+[       OK ] AngleTest.FullRotation (0 ms)
+[ RUN      ] AngleTest.LargeAngle
+[       OK ] AngleTest.LargeAngle (0 ms)
+[----------] 3 tests from AngleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 6 tests.
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+[==========] Running 6 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from DistanceTest
+[ RUN      ] DistanceTest.BasicCalculation
+[       OK ] DistanceTest.BasicCalculation (0 ms)
+[ RUN      ] DistanceTest.SamePoint
+[       OK ] DistanceTest.SamePoint (0 ms)
+[ RUN      ] DistanceTest.InvalidInput
+[       OK ] DistanceTest.InvalidInput (0 ms)
+[----------] 3 tests from DistanceTest (0 ms total)
+
+[----------] 3 tests from AngleTest
+[ RUN      ] AngleTest.ZeroAngle
+[       OK ] AngleTest.ZeroAngle (0 ms)
+[ RUN      ] AngleTest.FullRotation
+[       OK ] AngleTest.FullRotation (0 ms)
+[ RUN      ] AngleTest.LargeAngle
+[       OK ] AngleTest.LargeAngle (0 ms)
+[----------] 3 tests from AngleTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 6 tests from 2 test suites ran. (0 ms total)
+[  PASSED  ] 6 tests.
