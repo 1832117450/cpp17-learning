@@ -1,0 +1,56 @@
+车辆初始速度: 5
+加速度指令: 0
+轨迹创建
+所有权已转移
+旧指针已经为空
+x=0, y=0, speed=5
+x=1, y=0, speed=5
+x=2, y=0, speed=5
+轨迹销毁
+程序结束
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+[==========] Running 9 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 3 tests from DistanceTest
+[ RUN      ] DistanceTest.BasicCalculation
+[       OK ] DistanceTest.BasicCalculation (0 ms)
+[ RUN      ] DistanceTest.SamePoint
+[       OK ] DistanceTest.SamePoint (0 ms)
+[ RUN      ] DistanceTest.InvalidInput
+[       OK ] DistanceTest.InvalidInput (0 ms)
+[----------] 3 tests from DistanceTest (0 ms total)
+
+[----------] 3 tests from AngleTest
+[ RUN      ] AngleTest.ZeroAngle
+[       OK ] AngleTest.ZeroAngle (0 ms)
+[ RUN      ] AngleTest.FullRotation
+[       OK ] AngleTest.FullRotation (0 ms)
+[ RUN      ] AngleTest.LargeAngle
+[       OK ] AngleTest.LargeAngle (0 ms)
+[----------] 3 tests from AngleTest (0 ms total)
+
+[----------] 3 tests from TrajectoryTest
+[ RUN      ] TrajectoryTest.InitiallyEmpty
+轨迹创建
+轨迹销毁
+[       OK ] TrajectoryTest.InitiallyEmpty (0 ms)
+[ RUN      ] TrajectoryTest.AddAndReadPoints
+轨迹创建
+轨迹销毁
+[       OK ] TrajectoryTest.AddAndReadPoints (0 ms)
+[ RUN      ] TrajectoryTest.InvalidIndex
+轨迹创建
+轨迹销毁
+[       OK ] TrajectoryTest.InvalidIndex (0 ms)
+[----------] 3 tests from TrajectoryTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 9 tests from 3 test suites ran. (0 ms total)
+[  PASSED  ] 9 tests.
+Test project /home/lzf/projects/cpp17-learning/build
+    Start 1: unit_tests
+1/1 Test #1: unit_tests .......................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.01 sec

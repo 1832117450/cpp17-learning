@@ -83,3 +83,45 @@ g++ -std=c++17 -Wall -Wextra src/day03.cpp -o build/day03
 ### 自动驾驶应用
 使用 vector 保存规划轨迹，使用 optional 处理无效轨迹点，为后续车辆模型、轨迹规划和控制算法打基础。
 
+
+## Day 006：模块化工程
+
+本阶段将车辆状态和轨迹容器整理为可复用模块。
+
+### 工程结构
+
+- include/：头文件
+- src/：源代码
+- tests/：单元测试
+- notes/：学习笔记
+- results/：运行结果
+- build/：编译输出
+
+### 编译
+
+```bash
+cmake -S . -B build
+cmake --build build
+
+```
+
+### 运行 Day 006
+
+    ./build/day06
+
+### 运行测试
+
+    ./build/run_tests
+
+也可以运行：
+
+    cd build
+    ctest --output-on-failure
+
+### 核心模块
+
+- VehicleState：车辆状态
+- ControlCommand：控制命令
+- Trajectory：轨迹点管理
+- planning_core：可复用的 C++ 静态库
+
