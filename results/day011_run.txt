@@ -1,0 +1,3 @@
+Generated: results/day011_straight.csv
+Generated: results/day011_circle.csv
+Generated: results/day011_s_curve.csv
