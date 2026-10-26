@@ -2,3 +2,7 @@ build/
 *.o
 
 /Testing/
+
+# Python cache files
+__pycache__/
+*.pyc
