@@ -1,0 +1,15 @@
+=== Day 013 Vehicle Model Tests ===
+
+[PASS] Zero speed test
+[PASS] Straight line test
+
+--- Circular Motion Results ---
+Theory radius = 15.3125 m
+Theory x = 9.30419, Actual x = 9.30624
+Theory y = 3.1509, Actual y = 3.14482
+Theory yaw = 0.653063, Actual yaw = 0.653063
+[PASS] Circular motion test
+[PASS] Invalid input test
+[PASS] Control limits test
+
+All tests passed!
