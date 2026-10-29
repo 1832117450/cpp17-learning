@@ -1,0 +1,31 @@
+Day 021: Pure Pursuit failure analysis
+Teaching threshold: post-4s RMSE <= 1.0 m
+
+[normal]
+  Lookahead: 4.0000 m
+  Overall RMSE: 0.2747 m
+  Post-4s RMSE: 0.1448 m
+  Max error: 1.0866 m
+  Post-4s max error: 0.2521 m
+  Steering saturation steps: 0
+  Tracking requirement: MET
+
+[difficult]
+  Lookahead: 15.0000 m
+  Overall RMSE: 1.7266 m
+  Post-4s RMSE: 1.2744 m
+  Max error: 4.8901 m
+  Post-4s max error: 1.8320 m
+  Steering saturation steps: 0
+  Tracking requirement: NOT MET
+
+[adjusted]
+  Lookahead: 4.0000 m
+  Overall RMSE: 0.6649 m
+  Post-4s RMSE: 0.2079 m
+  Max error: 3.6363 m
+  Post-4s max error: 0.3276 m
+  Steering saturation steps: 2
+  Tracking requirement: MET
+
+CSV files saved in results/
