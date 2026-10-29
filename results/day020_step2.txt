@@ -1,0 +1,8 @@
+Pure Pursuit + PID
+Final x: 142.9528 m
+Final y: -0.2058 m
+Final speed: 8.0610 m/s
+Tracking RMSE: 0.2747 m
+Max error: 1.0866 m
+Speed RMSE: 0.9115 m/s
+CSV saved: results/day020_pure_pursuit.csv

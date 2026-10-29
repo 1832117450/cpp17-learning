@@ -1,0 +1,18 @@
+PID + Pure Pursuit
+  Final x: 142.9528 m
+  Final y: -0.2058 m
+  Final speed: 8.0610 m/s
+  Tracking RMSE: 0.2747 m
+  Max error: 1.0866 m
+  Speed RMSE: 0.9115 m/s
+PID + Stanley
+  Final x: 143.0046 m
+  Final y: -0.2150 m
+  Final speed: 8.0610 m/s
+  Tracking RMSE: 0.2749 m
+  Max error: 1.0819 m
+  Speed RMSE: 0.9115 m/s
+
+Comparison completed.
+Saved: results/day020_pp_compare.csv
+Saved: results/day020_stanley.csv
