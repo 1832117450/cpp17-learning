@@ -1,0 +1,5 @@
+Simulation time: 15 s
+Lateral error RMSE: 0.293113 m
+Maximum lateral error: 1.59536 m
+Final position: (73.9332, 1.00369) m
+Saved: results/day018_trajectory.csv

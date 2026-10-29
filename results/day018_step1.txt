@@ -1,0 +1,21 @@
+Case 1: Path on left
+横向误差: 1 m
+航向误差: 0 deg
+转向角: 11.0937 deg
+
+Case 2: Path on right
+横向误差: -1 m
+航向误差: 0 deg
+转向角: -11.0937 deg
+
+Case 3: Heading deviation
+横向误差: -0.46885 m
+航向误差: -10 deg
+转向角: -15.2525 deg
+
+Case 4: Zero velocity
+横向误差: 1 m
+航向误差: 0 deg
+转向角: 34.3775 deg
+
+All checks passed.
