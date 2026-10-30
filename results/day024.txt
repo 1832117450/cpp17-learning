@@ -1,0 +1,5 @@
+Goal
+baseline: Q[0,0]=1.0, RMSE=0.1112 m, steps=177
+Goal
+q5: Q[0,0]=5.0, RMSE=0.0813 m, steps=176
+Figures and CSV files saved to results/
