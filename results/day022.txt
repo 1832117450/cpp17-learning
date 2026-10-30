@@ -1,0 +1,12 @@
+Current state:
+ 0
+10
+Matrix A:
+  1 0.1
+  0   1
+Matrix B:
+  0
+0.1
+Next state:
+   1
+10.2
